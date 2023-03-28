@@ -4,7 +4,7 @@ const customerRoutes = express.Router()
 customerRoutes.get('/', (req, res) => {
     res.send('Getting all customers from database.')
 })
-// teste---
+// TODO - teste
 
 
 customerRoutes.get('/:id', (req, res) => {
