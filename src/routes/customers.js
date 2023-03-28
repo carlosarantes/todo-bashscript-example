@@ -2,6 +2,7 @@ const express = require('express')
 const customerRoutes = express.Router()
 
 // TODO - Implement database model
+// teste
 customerRoutes.get('/', (req, res) => {
     res.send('Getting all customers from database.')
 })
